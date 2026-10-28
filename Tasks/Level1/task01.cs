@@ -20,5 +20,6 @@ namespace CSharpPracticum.Tasks.Level1
             Console.WriteLine("Hello, world!");
             Console.WriteLine(DateTime.Now.ToString("dd.MM.yyyy"));
         }
+        // строка для коммита
     }
 }
