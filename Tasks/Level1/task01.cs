@@ -5,6 +5,7 @@ using System.Text;
 
 namespace CSharpPracticum.Tasks.Level1
 {
+    [TaskInfo(1)]
     public class task01 : ITask
     {
         public string Title =>  "Задание 1";
