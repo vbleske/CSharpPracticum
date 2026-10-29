@@ -5,9 +5,10 @@ using System.Text;
 
 namespace CSharpPracticum.Tasks.Level1
 {
+    [TaskInfo(1)]
     public class task01 : ITask
     {
-        public string Title =>  "Задание 1";
+        public string Title => "Hello, World + текущая дата";
         public string Description => "Вывести приветствие и дату";
         public string[] Requirements => new[]
         {
