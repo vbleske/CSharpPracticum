@@ -27,5 +27,6 @@ namespace CSharpPracticum.Tasks.Level1
             bool result2 = result % 2 == 0 ? true : false;
             Console.WriteLine($"Второй способ: {result2}");
         }
+        // не реализовал отдельными методами, проглядел
     }
 }
