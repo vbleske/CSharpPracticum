@@ -23,9 +23,10 @@ namespace CSharpPracticum.Tasks.Level1
             bool check = double.TryParse(input, out double num1);
             Console.WriteLine("Введите второе число:");
             string input2 = Console.ReadLine();
-            bool check2 = double.TryParse(input, out double num2);
+            bool check2 = double.TryParse(input2, out double num2);
             Console.WriteLine("Введите оператор действия:");
             string oper = Console.ReadLine();
+            Console.WriteLine(oper);
             switch (oper)
             {
                 case "+":
