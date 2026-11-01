@@ -21,6 +21,7 @@ namespace CSharpPracticum.Common
             char[] charArray = str.ToCharArray();
             Array.Reverse(charArray);
             return new string(charArray);
+
         }
     }
 }

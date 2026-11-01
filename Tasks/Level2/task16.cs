@@ -24,6 +24,7 @@ namespace CSharpPracticum.Tasks.Level2
             Console.WriteLine(word.IsPalindrome());
             Console.WriteLine(word.WordCount());
             Console.WriteLine(word.ReverseString());
+
         }
     }
 }
