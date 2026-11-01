@@ -1,6 +1,7 @@
 ﻿using CSharpPracticum.Common;
 using CSharpPracticum.Tasks.Level1;
 using CSharpPracticum.Tasks.Level2;
+using CSharpPracticum.Tasks.Level3;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -45,8 +46,20 @@ namespace CSharpPracticum.Menu
             level2Tasks.Add(new task32());
             level2Tasks.Add(new task33());
             level2Tasks.Add(new task34());
+            var level3Tasks = new List<ITask>();
+            level3Tasks.Add(new task36());
+            level3Tasks.Add(new task37());
+            level3Tasks.Add(new task38());
+            level3Tasks.Add(new task39());
+            level3Tasks.Add(new task40());
+            level3Tasks.Add(new task41());
+            level3Tasks.Add(new task42());
+            level3Tasks.Add(new task43());
+            level3Tasks.Add(new task44());
+            level3Tasks.Add(new task45());
             var level1Menu = new LevelMenu("Уровень 1: Базовый", level1Tasks);
             var level2Menu = new LevelMenu("Уровень 2: Средний", level2Tasks);
+            var level3Menu = new LevelMenu("Уровень 2: Продвинутый", level3Tasks);
             while (true)
                 {
                     Console.Clear();
@@ -64,6 +77,9 @@ namespace CSharpPracticum.Menu
                             break;
                         case "2":
                         level2Menu.Show();
+                        break;
+                        case "3":
+                        level3Menu.Show();
                         break;
                         case "0":
                             return;
