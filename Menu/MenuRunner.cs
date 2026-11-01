@@ -1,5 +1,6 @@
 ﻿using CSharpPracticum.Common;
 using CSharpPracticum.Tasks.Level1;
+using CSharpPracticum.Tasks.Level2;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -26,8 +27,11 @@ namespace CSharpPracticum.Menu
             level1Tasks.Add(new task12());
             level1Tasks.Add(new task13());
             level1Tasks.Add(new task14());
+            var level2Tasks = new List<ITask>();
+            level2Tasks.Add(new task16());
             var level1Menu = new LevelMenu("Уровень 1: Базовый", level1Tasks);
-                while (true)
+            var level2Menu = new LevelMenu("Уровень 2: Средний", level2Tasks);
+            while (true)
                 {
                     Console.Clear();
                     Console.WriteLine(" === Практикум по C# === ");
@@ -42,6 +46,9 @@ namespace CSharpPracticum.Menu
                         case "1":
                             level1Menu.Show();
                             break;
+                        case "2":
+                        level2Menu.Show();
+                        break;
                         case "0":
                             return;
                         default:
