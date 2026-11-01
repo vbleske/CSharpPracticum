@@ -12,9 +12,21 @@ namespace CSharpPracticum.Menu
             public void Run()
             {
                 var level1Tasks = new List<ITask>();
-                level1Tasks.Add(new task01());
+            level1Tasks.Add(new task01());
             level1Tasks.Add(new task02());
-                var level1Menu = new LevelMenu("Уровень 1: Базовый", level1Tasks);
+            level1Tasks.Add(new task03());
+            level1Tasks.Add(new task04());
+            level1Tasks.Add(new task05());
+            level1Tasks.Add(new task06());
+            level1Tasks.Add(new task07());
+            level1Tasks.Add(new task08());
+            level1Tasks.Add(new task09());
+            level1Tasks.Add(new task10());
+            level1Tasks.Add(new task11());
+            level1Tasks.Add(new task12());
+            level1Tasks.Add(new task13());
+            level1Tasks.Add(new task14());
+            var level1Menu = new LevelMenu("Уровень 1: Базовый", level1Tasks);
                 while (true)
                 {
                     Console.Clear();
