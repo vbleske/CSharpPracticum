@@ -42,6 +42,9 @@ namespace CSharpPracticum.Menu
             level2Tasks.Add(new task29());
             level2Tasks.Add(new task30());
             level2Tasks.Add(new task31());
+            level2Tasks.Add(new task32());
+            level2Tasks.Add(new task33());
+            level2Tasks.Add(new task34());
             var level1Menu = new LevelMenu("Уровень 1: Базовый", level1Tasks);
             var level2Menu = new LevelMenu("Уровень 2: Средний", level2Tasks);
             while (true)
