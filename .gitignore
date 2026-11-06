@@ -265,6 +265,9 @@ ServiceFabricBackup/
 *.mdf
 *.ldf
 *.ndf
+*.bak
+.env
+appsettings.Development.json
 
 # Business Intelligence projects
 *.rdl.data
